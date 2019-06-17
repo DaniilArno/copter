@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px) {
+	.commercial .container {
+		transform: translateX(-58.5%) translateY(-32%);
+	}
+	.owl-item__descr {
+		font-size: 16px;
+		transform: translate(-120px, 0);
+	}
+	.owl-theme .owl-nav {
+		transform: translateX(-110px) translateY(-370px);
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.owl-theme .owl-nav {
+		transform: translateX(40px) translateY(-370px);
+	}
+	.commercial {
+		&__title {
+			font-size: 36px;
+		}
+		&__descr {
+			font-size: 18px;
+		}
+		&__btn {
+			width: auto;
+			height: auto;
+		}
+	}
+	.owl-item__descr {
+		font-size: 16px;
+		transform: translate(-80px, 0);
+	}
+}
+
+
+@media screen and (max-width: 767px) {	 
+	.commercial {
+		.container {
+			transform: translateX(-50%) translateY(-32%);
+		}
+		&__title {
+			font-size: 30px;
+		}		
+		&__item {
+			&_play {
+				margin-left: 0;
+				margin-top: 30px;
+			}
+			&:first-child {
+				margin-right: 0px;
+			}
+		}
+		&__info {
+			flex-direction: column;
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.header {
+		// padding: 30px 0 0px;
+		// display: -webkit-flex;
+		// display: flex;
+		// flex-direction: column;
+		// flex-wrap: wrap;
+		// justify-content: space-between;
+		// box-sizing: border-box;
+		&__info {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: 24px;
+		}
+		&__item {
+			font-weight: 500;
+			font-size: 16px;
+			color: #3d3d3d;
+			align-self: center;
+			font-weight: normal;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			span:first-child {
+				margin-right: 27px;
+				font-weight: 500;
+			}
+			&:nth-child(1) {
+				text-transform: uppercase;  
+				font-weight: bold;
+				font-size: 20px;
+				letter-spacing: 2.4px;
+			}
+			a {
+				text-decoration: none;
+				color: #000;
+			}
+		}
+	}
+	.navigate {
+		display: none;
+	}
+	.advantages {
+		&__title {
+			text-align: center
+		}
+		&__item {
+			width: 50%;
+		}
+	}
+
+}
+
+ @media (max-width: 576px) {
+	.commercial {
+		&__title {
+			font-size: 22px;
+		}
+		&__descr {
+			font-size: 14px;
+		}
+		&__btn {
+			width: auto;
+			height: auto;
+			padding: 20px 15px;  
+		}
+	}
+}

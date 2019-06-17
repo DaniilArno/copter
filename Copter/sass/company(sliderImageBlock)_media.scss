@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+	.price {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		.buy-btn {
+			margin-top: 10px;
+		}
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.tabcontent {
+		&__block {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+		&__descr {
+			color: #3d3d3d;
+			span {
+				font-weight: bold;
+			}
+		}
+		&__left {
+			width: 100%;
+		}
+		&__right {
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {	 
+	ul.tabs li {
+		font-size: 16px;
+	}
+	.header {
+		// padding: 30px 0 0px;
+		// display: -webkit-flex;
+		// display: flex;
+		// flex-direction: column;
+		// flex-wrap: wrap;
+		// justify-content: space-between;
+		// box-sizing: border-box;
+		&__info {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: 24px;
+		}
+		&__item {
+			font-weight: 500;
+			font-size: 16px;
+			color: #3d3d3d;
+			align-self: center;
+			font-weight: normal;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			span:first-child {
+				margin-right: 27px;
+				font-weight: 500;
+			}
+			&:nth-child(1) {
+				text-transform: uppercase;  
+				font-weight: bold;
+				font-size: 20px;
+				letter-spacing: 2.4px;
+			}
+			a {
+				text-decoration: none;
+				color: #000;
+			}
+		}
+	}
+	.navigate {
+		display: none;
+	}
+	.advantages {
+		&__title {
+			text-align: center
+		}
+		&__item {
+			width: 50%;
+		}
+	}
+
+}
+
+@media (max-width: 576px) {
+	.company__title {
+		font-size: 34px;
+	}
+}
